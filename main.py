@@ -7,6 +7,7 @@ from matplotlib.pyplot import figure
 from PIL import Image
 
 
+
 # @st.cache
 # def load_data_from_csv() -> pd.DataFrame:
 #     df = pd.read_csv('Sleep_health_and_lifestyle_dataset.csv', index_col='Person ID')
