@@ -16,7 +16,6 @@ data = pd.read_csv('Sleep_health_and_lifestyle_dataset.csv', index_col='Person I
 data["BMI Category"].replace(['Normal Weight'], ['Normal'], inplace=True)
 
 # ---------SIDEBAR-START---------
-
 st.sidebar.title("Options")
 sex = st.sidebar.radio("Choose male/female", ['All', 'Male', 'Female'])
 st.sidebar.title("Choose profession")
